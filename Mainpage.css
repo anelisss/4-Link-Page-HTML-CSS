@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    margin: 20% 20%;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.box1 {
+    display: inline-block;
+    float:right;
+    margin: 0 50px;
+}
+.box2 {
+    display:inline-block;
+    float:right;
+    padding-left: 50%;
+    text-align: center;
 }
