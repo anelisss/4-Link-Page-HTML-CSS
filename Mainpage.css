@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {
+    width: 960px;
+    margin: 20px auto;
 }
 nav {
     position: fixed;
@@ -13,16 +18,8 @@ nav {
 nav a {
     display: block;
     text-decoration: none;
-    text-align: center;
 }
-.box1 {
+article {
     display: inline-block;
-    float:right;
-    margin: 0 50px;
-}
-.box2 {
-    display:inline-block;
-    float:right;
-    padding-left: 50%;
-    text-align: center;
+    margin-left: 500px;
 }

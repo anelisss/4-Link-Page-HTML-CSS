@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 body {
     width: 960px;
@@ -18,4 +19,10 @@ nav a {
     display: block;
     text-decoration: none;
     text-align: center;
+}
+section {
+    display: inline-block;
+    margin: 10px 500px;
+    margin-right: 0;
+
 }

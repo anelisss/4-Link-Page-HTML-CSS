@@ -1,8 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 body {
-    font-family:'Courier New', Courier, monospace;
+    width: 960px;
+    margin: 20px auto;
 }
 table {
     width: 100%;
@@ -20,4 +23,20 @@ th {
     text-align: center;
     background-color: cornflowerblue;
     text-transform:uppercase;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    margin: 20% 20%;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+}
+article {
+    display: inline-block;
+    margin-left: 500px;
 }
